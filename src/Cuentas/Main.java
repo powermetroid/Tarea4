@@ -3,8 +3,16 @@ package Cuentas;
 
 import Cuentas.CCuenta;
 
+/**
+ * Tarea para Entornos de Desarrollo 
+ * @author Pablo Santiago
+ */
 public class Main {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         CCuenta miCuenta = null;
         double saldoActual;
