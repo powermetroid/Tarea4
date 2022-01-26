@@ -4,14 +4,15 @@ package Cuentas;
 import Cuentas.CCuenta;
 
 /**
- * Tarea para Entornos de Desarrollo 
+ * Tarea para Entornos de Desarrollo ED04
  * @author Pablo Santiago
+ * @version 1.0
  */
 public class Main {
 
     /**
      *
-     * @param args
+     * @param args es la variable dentro del metodo
      */
     public static void main(String[] args) {
         CCuenta miCuenta = null;
@@ -20,9 +21,10 @@ public class Main {
         final CCuenta cuenta1 = miCuenta;
 
     }
-/** Introducimos el metodo Operativa_cuenta*/
-    
-    private static void operativa_cuenta(float cantidad) {
+/** Introducimos el metodo Operativa_cue
+     * @param cantidadn que corresponde al nuevo metodo Operativa_cuenta
+    */
+    public static void operativa_cuenta(float cantidadn) {
         CCuenta cuenta1;
         double saldoActual;
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);

@@ -83,10 +83,10 @@ public class CCuenta {
 
     /**
      *
-     * @param nom
-     * @param cue
-     * @param sal
-     * @param tipo
+     * @param nom Parametro de nombre asociado a Ccuenta
+     * @param cue Parametro de nº de cuenta asociado a Ccuenta
+     * @param sal Parametro de saldo asociado a Ccuenta
+     * @param tipo Parametro de tipo de interés
      */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
@@ -107,7 +107,7 @@ public class CCuenta {
     /**
      *
      * @param cantidad si la cantidad fuese negativa
-     * @throws java.lang.Exception
+     * @throws java.lang.Exception muestra el texto por consola de que no se puede ingresar una cantidad negativa
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -119,7 +119,7 @@ public class CCuenta {
     /**
      *
      * @param cantidad si la cantidad a retirar fuese negativa
-     * @throws java.lang.Exception
+     * @throws java.lang.Exception muestra el texto por consola de que no se puede retirar una cantidad negativa
      */
     public void retirar(double cantidad) throws Exception
     {
