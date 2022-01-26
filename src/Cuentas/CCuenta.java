@@ -107,7 +107,7 @@ public class CCuenta {
     /**
      *
      * @param cantidad si la cantidad fuese negativa
-     * @throws Un mensaje que no se puede ingresar dicha cantidad.
+     * @throws java.lang.Exception
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -119,7 +119,7 @@ public class CCuenta {
     /**
      *
      * @param cantidad si la cantidad a retirar fuese negativa
-     * @throws Un mensaje que no se puede retirar dicha cantidad.
+     * @throws java.lang.Exception
      */
     public void retirar(double cantidad) throws Exception
     {
