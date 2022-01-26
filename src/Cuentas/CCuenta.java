@@ -1,6 +1,11 @@
 package Cuentas;
 
 /** He movido las clases desde el Package por defecto al paquete Cuentas*/
+/**
+ * Tarea para Entornos de Desarrollo ED04
+ * @author Pablo Santiago
+ * @version 1.0
+ */
 
 
 
@@ -8,56 +13,56 @@ package Cuentas;
 public class CCuenta {
 
     /**
-     * @return the nombre
+     * @return Nombre del titular de la cuenta
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param nombre Para poner el nombre del titular de la cuenta.
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * @return the cuenta
+     * @return El numero de cuenta asociado al objeto cuenta.
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
-     * @param cuenta the cuenta to set
+     * @param cuenta para definir el numero de cuenta.
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
     /**
-     * @return the saldo
+     * @return Devuelve el saldo que contiene la cuenta.
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * @param saldo the saldo to set
+     * @param saldo para definir el saldo de la cuenta
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
     /**
-     * @return the tipoInterés
+     * @return the tipoInterés para ver que tipo de interés tiene asociado esta cuenta.
      */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
     /**
-     * @param tipoInterés the tipoInterés to set
+     * @param tipoInterés para definir el tipo de interés que tiene asociado la cuenta.
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
@@ -92,7 +97,7 @@ public class CCuenta {
 
     /**
      *
-     * @return
+     * @return el nombre , el numero de cuenta y el saldo.
      */
     public double estado()
     {
@@ -101,8 +106,8 @@ public class CCuenta {
 
     /**
      *
-     * @param cantidad
-     * @throws Exception
+     * @param cantidad si la cantidad fuese negativa
+     * @throws Un mensaje que no se puede ingresar dicha cantidad.
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -113,8 +118,8 @@ public class CCuenta {
 
     /**
      *
-     * @param cantidad
-     * @throws Exception
+     * @param cantidad si la cantidad a retirar fuese negativa
+     * @throws Un mensaje que no se puede retirar dicha cantidad.
      */
     public void retirar(double cantidad) throws Exception
     {
