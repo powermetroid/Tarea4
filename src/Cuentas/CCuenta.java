@@ -14,6 +14,7 @@ public class CCuenta {
 
     /**
      * @return Nombre del titular de la cuenta
+     * Este parametro devuelve nombre del titular de la cuenta.
      */
     public String getNombre() {
         return nombre;
@@ -21,6 +22,7 @@ public class CCuenta {
 
     /**
      * @param nombre Para poner el nombre del titular de la cuenta.
+     *El metodo set nombre asigna un nombre a la cuenta
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -28,6 +30,8 @@ public class CCuenta {
 
     /**
      * @return El numero de cuenta asociado al objeto cuenta.
+     * Al introducir este parametro se devuelve el numero de cuenta.
+     * El metodo getCuenta nos devuelve el objeto cuenta.
      */
     public String getCuenta() {
         return cuenta;
@@ -35,6 +39,7 @@ public class CCuenta {
 
     /**
      * @param cuenta para definir el numero de cuenta.
+     * El metodo setcuenta asigna un numero de cuenta 
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
@@ -42,6 +47,7 @@ public class CCuenta {
 
     /**
      * @return Devuelve el saldo que contiene la cuenta.
+     * Con el metodo getsaldo nos devuelve el saldo actual de la cuenta.
      */
     public double getSaldo() {
         return saldo;
@@ -49,6 +55,7 @@ public class CCuenta {
 
     /**
      * @param saldo para definir el saldo de la cuenta
+     * Con el metodo setsaldo definimos el saldo actual que tiene la cuenta.
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
@@ -56,6 +63,7 @@ public class CCuenta {
 
     /**
      * @return the tipoInterés para ver que tipo de interés tiene asociado esta cuenta.
+     * Con el metodo getTipoInterés nos devuelve el valor del tipo de interés que tiene la cuenta.
      */
     public double getTipoInterés() {
         return tipoInterés;
@@ -63,6 +71,7 @@ public class CCuenta {
 
     /**
      * @param tipoInterés para definir el tipo de interés que tiene asociado la cuenta.
+     * Utilizando el método setTipoInterés asignamos un tipo de interés a la cuenta.
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
