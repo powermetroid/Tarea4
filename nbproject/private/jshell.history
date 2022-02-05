@@ -1,0 +1,5 @@
+VAR#>git pull origin master
+VAR#>pull origin master
+EXPRESSION#>git
+EXPRESSION#>git --help
+EXPRESSION#>help
